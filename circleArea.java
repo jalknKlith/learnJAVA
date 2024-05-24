@@ -1,5 +1,5 @@
-/*This program calculates the area of a circle, reading the radius
-and printing the area.*/
+/*This program calculates the area of a circle,
+reading the radius and printing the area.*/
 
 import java.util.Scanner;
 
