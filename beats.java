@@ -1,24 +1,23 @@
+//Calculate the number of pulses
+//that a person should have for every
+//10 seconds of exercise, if the formula is:
+//... Number of Pulses = (220 - age)/10
+//... Read the age and print the number of pulses.
+
 import java.util.Scanner;
 
 public class beats {
 
     public static void main(String[] args) {
-        //Calcular el número de pulsaciones
-        //que una persona debe tener por cada
-        //10segundos de ejercicio, si la fórmula es: 
-        //... Numero de Pulsaciones = (220 - edad)/10
-        //... Leer la edad e imprimir el número de pulsaciones.
+        //Read the age
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter your age: ");
+        int age = input.nextInt();
 
-	Scanner input = new Scanner(System.in);
+        //Calculating the number of pulses
+        double pulses = (220 - age) / 10.0;
 
-        // Leer la edad
-        System.out.print("Ingrese su edad: ");
-        int edad = input.nextInt();
-
-        // Calcular el número de pulsaciones
-        double pulsaciones = (220 - edad) / 10.0;
-
-        // Imprimir el número de pulsaciones
-        System.out.println("El número de pulsaciones por cada 10 segundos de ejercicio es: " + pulsaciones);
+        //Print the number of pulses
+        System.out.println("The number of pulses per 10 seconds of exercise is: " + pulses);
     }
 }
