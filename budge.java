@@ -1,6 +1,7 @@
-// In a hospital there are three areas: Gynecology, Pediatrics, traumatology
-// ... The hospital's annual budget is distributed 40% Gynecology,30% Pediatrics, 30% Traumatology,
-// Read the total budget and print the budget value by area.
+/* In a hospital there are three areas: Gynecology, Pediatrics, traumatology
+... The hospital's annual budget is distributed
+40% Gynecology,30% Pediatrics, 30% Traumatology,
+... Read the total budget and print the budget value by area */
        
 import java.util.Scanner;
 
