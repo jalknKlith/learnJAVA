@@ -1,7 +1,3 @@
-/* build an algorithm that allows you to calculate
-the area of a triangle, read the base,
-the height and print the result */
-
 import java.util.Scanner;
 
 public class divisionResiduo {
