@@ -1,10 +1,12 @@
+// Calculate the new salary of an employee, knowing that there was a
+// 25% increase over their previous salary.
+
 import java.util.Scanner;
 
 public class salaryIncrease {
 
     public static void main(String[] args) {
-        // Calculate the new salary of an employee, knowing that there was a
-        // 25% increase over their previous salary.
+    
         // Declare variables
         double previousSalary;
         double increase;
