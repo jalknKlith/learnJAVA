@@ -1,8 +1,7 @@
-//Calculate the number of beats
-//that a person should have for every
-//10 seconds of exercise, if the formula is:
-//... Number of Pulses = (220 - age)/10
-//... Read the age and print the number of beats.
+/*Calculate the number of beats that a person should have for every
+10 seconds of exercise, if the formula is:
+... Number of Pulses = (220 - age)/10
+... Read the age and print the number of beats */
 
 import java.util.Scanner;
 
