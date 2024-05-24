@@ -1,5 +1,5 @@
-/* calculate the area of a triangle, read the base,
-the height and print the result */
+/* calculate the area of a triangle,
+read the base, the height and print the result */
 
 import java.util.Scanner; 
 
