@@ -1,8 +1,6 @@
-package algoritmos;
-
 import java.util.Scanner;
 
-public class CalculoPulsaciones {
+public class beats {
 
     public static void main(String[] args) {
         //Calcular el número de pulsaciones
