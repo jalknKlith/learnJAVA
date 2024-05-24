@@ -1,5 +1,5 @@
-// Calculate the new salary of an employee, knowing that there was a
-// 25% increase over their previous salary.
+/* Calculate the new salary of an employee
+// ... 25% increase over their previous salary */
 
 import java.util.Scanner;
 
