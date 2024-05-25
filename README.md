@@ -1,6 +1,6 @@
 # Java Algorithms
 
-This repository contains six Java algorithms for solving common mathematical and computational problems.
+This repository contains seven Java algorithms for solving common mathematical and computational problems.
 
 ## Algorithms
 
@@ -10,6 +10,7 @@ This repository contains six Java algorithms for solving common mathematical and
 4. **Hospital Budget Estimator**: Estimates the monthly budget of a hospital.
 5. **Patient Beats Calculator**: Calculates the number of beats per minute of a patient based on their age and gender.
 6. **Quotient of Division Calculator**: Calculates the quotient of the division of two integers.
+7.  **votingAge.java:** Determines if a person is eligible to vote based on their age.
 
 ## Usage
 
