@@ -12,8 +12,8 @@ This repository contains eight Java algorithms for solving common mathematical a
 6. **Quotient of Division Calculator**: Calculates the quotient of the division of two integers.
 7. **VotingAge:** Determines if a person is eligible to vote based on their age.
 8. **Rectangle Area Calculator**: Calculates the area of a rectangle given its width and length.
-9. **Vowel or consonant: This Java code takes a character input and determines if it is a vowel or a consonant.
-10. **LargestNumber: Enter three numbers and press enter after each one. The program will then display the largest number.
+9. **Vowel or consonant:** This Java code takes a character input and determines if it is a vowel or a consonant.
+10. **LargestNumber:** Enter three numbers and press enter after each one. The program will then display the largest number.
 
 ## Usage
 
