@@ -1,4 +1,4 @@
-//Ask fir three numbers and return the largest number
+//Ask for three numbers and return the largest number
 
 import java.util.Scanner;
 
