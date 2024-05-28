@@ -9,9 +9,9 @@ public class beats {
 
     public static void main(String[] args) {
         //Read the age
-        Scanner input = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter your age: ");
-        int age = input.nextInt();
+        int age = sc.nextInt();
 
         //Calculating the number of pulses
         double beats = (220 - age) / 10.0;
