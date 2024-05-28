@@ -15,9 +15,9 @@ public class HospitalBudget {
         double totalBudget = sc.nextDouble();
 
         // Calculate the budget per area
-        double gynecology = totalBudget * 0.4 * 100;
-        double pediatrics = totalBudget * 0.3 * 100;
-        double traumatology = totalBudget * 0.3 * 100;
+        double gynecology = totalBudget * 0.4d;
+        double pediatrics = totalBudget * 0.3d;
+        double traumatology = totalBudget * 0.3d;
 
         // Print the budget per area
         System.out.println("Budget for Gynecology: " + gynecology);
