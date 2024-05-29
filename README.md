@@ -10,14 +10,14 @@ This repository contains fourteen Java algorithms for solving common mathematica
 4. **Hospital Budget Estimator**: Estimates the monthly budget of a hospital.
 5. **Patient Beats Calculator**: Calculates the number of beats per minute of a patient based on their age and gender.
 6. **Quotient of Division Calculator**: Calculates the quotient of the division of two integers.
-7. **VotingAge:** Determines if a person is eligible to vote based on their age.
+7. **Voting Age:** Determines if a person is eligible to vote based on their age.
 8. **Rectangle Area Calculator**: Calculates the area of a rectangle given its width and length.
 9. **Vowel or consonant:** This Java code takes a character input and determines if it is a vowel or a consonant.
-10. **LargestNumber:** Enter three numbers and press enter after each one. The program will then display the largest number.
+10. **The largest number:** Enter three numbers and press enter after each one. The program will then display the largest number.
 11. **Square Area Calculator**: Calculates the area of the square given the side length.
 12. **Even or Odd**: Find out if the number you put is even or odd
-13. **starSign**: Find out which is your starSign
-14. **numerology**: Find out which number you are
+13. **Star Sign**: Find out which is your starSign
+14. **Numerology**: Find out which number you are
 
 ## Usage
 
