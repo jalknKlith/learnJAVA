@@ -1,6 +1,6 @@
 # Java Algorithms
 
-This repository contains twelve Java algorithms for solving common mathematical and computational problems.
+This repository contains fourteen Java algorithms for solving common mathematical and computational problems.
 
 ## Algorithms
 
@@ -16,6 +16,8 @@ This repository contains twelve Java algorithms for solving common mathematical 
 10. **LargestNumber:** Enter three numbers and press enter after each one. The program will then display the largest number.
 11. **Square Area Calculator**: Calculates the area of the square given the side length.
 12. **Even or Odd**: // Find out if the number you put is even or odd
+13. **starSign**: // Find out which is your starSign
+14. **numerology**: // Find out which number you are
 
 ## Usage
 
