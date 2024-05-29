@@ -4,10 +4,10 @@ public class Main {
         public static void main(String[] args) {
         
                 //Ask for number
-                Scanner read = new Scanner(System.in);
+                Scanner sc = new Scanner(System.in);
                 int number;
                 System.out.println("Write a number");
-                number = read.nextInt();
+                number = sc.nextInt();
                 
                 // Find out if the number above is even or odd
                 if (number % 2 == 0) {
