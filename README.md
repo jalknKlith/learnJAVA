@@ -15,9 +15,9 @@ This repository contains fourteen Java algorithms for solving common mathematica
 9. **Vowel or consonant:** This Java code takes a character input and determines if it is a vowel or a consonant.
 10. **LargestNumber:** Enter three numbers and press enter after each one. The program will then display the largest number.
 11. **Square Area Calculator**: Calculates the area of the square given the side length.
-12. **Even or Odd**: // Find out if the number you put is even or odd
-13. **starSign**: // Find out which is your starSign
-14. **numerology**: // Find out which number you are
+12. **Even or Odd**: Find out if the number you put is even or odd
+13. **starSign**: Find out which is your starSign
+14. **numerology**: Find out which number you are
 
 ## Usage
 
