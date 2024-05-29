@@ -92,7 +92,6 @@ public class StarSign {
                 } else {
                         starSign = "Scorpio";
                 }
-
                 //December
                 } else if (month == 12) {
                 if (day >= 22) {
