@@ -37,7 +37,7 @@ public class romNum50 {
                                 roman = "VIII";
                                 break;
                         case 9:
-                                romano = "IX";
+                                roman = "IX";
                                 break;
                         case 10:
                                 roman = "X";
