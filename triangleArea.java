@@ -9,7 +9,7 @@ public class triangleArea {
         
         float base, height, area;
         Scanner read = new Scanner(System.in);
-        //base legth
+        //base length
         System.out.println("Enter the base of the triangle");
         base = read.nextFloat(); //implicit conversion
         //height
