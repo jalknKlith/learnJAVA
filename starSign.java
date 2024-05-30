@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class StarSign {
+public class starSign {
 
         public static void main(String[] args) {
                 Scanner input = new Scanner(System.in);
