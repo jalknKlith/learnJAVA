@@ -1,6 +1,6 @@
 # Java Algorithms
 
-This repository contains fourteen Java algorithms for solving common mathematical and computational problems.
+This repository contains fifteen Java algorithms for solving common mathematical and computational problems.
 
 ## Algorithms
 
