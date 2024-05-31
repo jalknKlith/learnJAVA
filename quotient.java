@@ -9,7 +9,7 @@ public class divisionResiduo {
         System.out.println("Enter the first number:");
         num1 = sc.nextDouble();
         System.out.println("Enter the second number:");
-        num2 = read.nextDouble();
+        num2 = sc.nextDouble();
 
         quotient = num1 / num2;
         remainder = num1 % num2; 
