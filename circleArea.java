@@ -7,10 +7,10 @@ public class areaCirculo {
 
     public static void main(String[] args){
         
-        Scanner leer = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         double radio, area;
         System.out.println("Enter the radius");
-        radio = leer.nextDouble();
+        radio = sc.nextDouble();
         area = Math.PI * Math.pow(radio, 2);
         System.out.println("The area is: "+area);
 
