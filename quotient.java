@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class divisionResiduo {
     public static void main(String[] args) {
         
-        Scanner read = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         double num1, num2, remainder, quotient;
 
         System.out.println("Enter the first number:");
-        num1 = read.nextDouble();
+        num1 = sc.nextDouble();
         System.out.println("Enter the second number:");
         num2 = read.nextDouble();
 
