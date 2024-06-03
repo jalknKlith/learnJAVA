@@ -3,29 +3,33 @@
 
 import java.util.Scanner;
 
-public class salaryIncrease {
+public class increase {
 
     public static void main(String[] args) {
     
-        // Declare variables
-        double previousSalary;
-        double increase;
-        double newSalary;
-
-        // Create a Scanner object to read the user input
-        Scanner scanner = new Scanner(System.in);
+        double prevSalary, increase, newSalary
+        Scanner input = new Scanner(System.in);
 
         // Ask the user for the previous salary
         System.out.print("Enter the previous salary: ");
-        previousSalary = scanner.nextDouble();
+        prevSalary = input.nextDouble();
 
         // Calculate the 25% increase
-        increase = previousSalary * 0.25;
+        increase = prevSalary * 0.25;
 
         // Calculate the new salary
-        newSalary = previousSalary + increase;
+        newSalary = prevSalary + increase;
 
         // Display the new salary
         System.out.println("The new salary is: " + newSalary);
     }
 }
+
+/*
+
+prevSalary = int(input("Entre previous salary: "))
+increase = prevSalary * 0.25
+newSalary = prevSalary + increase
+print("The new salary is: ", newSalary")
+
+*/
