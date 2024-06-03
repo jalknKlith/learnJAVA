@@ -1,15 +1,14 @@
 import java.util.Scanner;
 
-public class Main {
+public class votingAge {
+ 
     public static void main(String[] args) {
 
-        try (Scanner scan = new Scanner(System.in)) {
-            System.out.println("Write your age");
-            int age = scan.nextInt();
+            Scanner input = new Scanner(System.in) {
+            System.out.println("Enter your age");
+            int age = input.nextInt();
 
-            int votingAge = 18;
-
-            if (age >= votingAge) {
+            if (age >= 18) {
                 System.out.println("Old enough to vote!");
             } else {
                 System.out.println("Not old enough to vote.");
@@ -18,3 +17,13 @@ public class Main {
         }
     }
 }
+
+/*
+
+age = int(input("Enter your age"))
+if age >= 18:
+    print("Old enough to vote!")
+else:
+    print("Not old enough to vote!")
+    
+*/
