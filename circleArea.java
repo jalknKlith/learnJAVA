@@ -3,16 +3,32 @@ reading the radius and printing the area.*/
 
 import java.util.Scanner;
 
-public class areaCirculo {
+public class circleArea {
 
-    public static void main(String[] args){
-        
-        Scanner sc = new Scanner(System.in);
-        double radio, area;
-        System.out.println("Enter the radius");
-        radio = sc.nextDouble();
-        area = Math.PI * Math.pow(radio, 2);
-        System.out.println("The area is: "+area);
+        public static void main(String[] args) {
+                Scanner sc = new Scanner(System.in);
+                double radio, area;
 
+                System.out.println("Enter the circle radius");
+                radio = sc.nextDouble();
+
+                area = Math.PI * Math.pow(radio, 2);
+
+                System.out.println("The area is: " + area);
     }
 }
+
+/*
+
+
+import math
+
+radius = float(input("Enter the circle radius: "))
+
+area = math.pi * math.pow(radius, 2)
+
+print("The area is: ", area)
+
+
+*/
+
