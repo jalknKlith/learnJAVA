@@ -1,27 +1,43 @@
-/* In a hospital there are three areas: Gynecology, Pediatrics, traumatology
-... The hospital's annual budget is distributed
-40% Gynecology,30% Pediatrics, 30% Traumatology,
-... Read the total budget and print the budget value by area */
+/*
+In a business there are three branches: branch1, branch2, branch3
+The business's annual budget is distributed
+40% branch1, 30% branch2, 30% branch3,
+Read the total budget and print the budget value by branch
+*/
        
 import java.util.Scanner;
 
-public class HospitalBudget {
+public class budget {
 
     public static void main(String[] args) {
 
         // Read the total budget
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the hospital's total annual budget: ");
-        double totalBudget = sc.nextDouble();
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the business's total annual budget: ");
+        double budget = input.nextDouble(); //
 
         // Calculate the budget per area
-        double gynecology = totalBudget * 0.4d;
-        double pediatrics = totalBudget * 0.3d;
-        double traumatology = totalBudget * 0.3d;
+        double branch1 = budget * 0.4d; 
+        double branch2 = budget * 0.3d;
+        double branch3 = budget * 0.3d;
 
         // Print the budget per area
-        System.out.println("Budget for Gynecology: " + gynecology);
-        System.out.println("Budget for Pediatrics: " + pediatrics);
-        System.out.println("Budget for Traumatology: " + traumatology);
+        System.out.println("Budget for branch1: " + gynecology);
+        System.out.println("Budget for branch2: " + pediatrics);
+        System.out.println("Budget for branch3: " + traumatology);
     }
 }
+
+/*
+
+budget = float(input("Enter the business's total annual budget"))
+
+branch1 = budget * 0.4
+branch2 = budget * 0.3
+branch3 = budget * 0.3 
+
+print("Budget for branch1: ", branch1)
+print("Budget for branch2: ", branch2)
+print("Budget for branch3: ", branch3)
+
+*/
