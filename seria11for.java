@@ -7,7 +7,6 @@ public class seria11for {
 }
 
 
-
 /*
 python
 
