@@ -15,13 +15,12 @@ public class triangleArea {
                 height = input.nextFloat();
                 area = base * height / 2f;
                 System.out.println("The area is: "+area);
-
-
     }
 
 }
 
-/* python
+/* 
+python
 
 base = float(input("Enter the base of the triangle: "));
 height = float(input("Enter the height of the triangle: "));
@@ -29,6 +28,7 @@ height = float(input("Enter the height of the triangle: "));
 area = (base * height) / 2
 
 print("The area is:",area)
+
 
 */
 
