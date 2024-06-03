@@ -7,7 +7,7 @@ public class increase {
 
     public static void main(String[] args) {
     
-        double prevSalary, increase, newSalary
+        double prevSalary, increase, newSalary;
         Scanner input = new Scanner(System.in);
 
         // Ask the user for the previous salary
