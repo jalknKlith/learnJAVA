@@ -1,4 +1,4 @@
-public class Main {
+public class seria11for {
         public static void main(String[] args) {
                 for (int x = 11; x <= 111; x+=11) {
                 System.out.println(x);
