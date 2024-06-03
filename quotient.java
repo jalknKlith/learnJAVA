@@ -1,20 +1,35 @@
 import java.util.Scanner;
 
-public class divisionResiduo {
-    public static void main(String[] args) {
-        // Create a Scanner object to read user input
-        Scanner sc = new Scanner(System.in);
-        double num1, num2, remainder, quotient;
-        //Ask for the numbers
-        System.out.println("Enter the first number:");
-        num1 = sc.nextDouble();
-        System.out.println("Enter the second number:");
-        num2 = sc.nextDouble();
-        //make the operations
-        quotient = num1 / num2;
-        remainder = num1 % num2; 
-        //print the results
-        System.out.println("The quotient is: " + quotient);
-        System.out.println("The remainder is: " + remainder);
-    }
+public class quotient {
+
+        public static void main(String[] args) {
+                Scanner sc = new Scanner(System.in);
+                double x, y, remainder, quotient;
+
+                System.out.print("Enter the first number: ");
+                x = sc.nextDouble();
+                System.out.print("Enter the second number: ");
+                y = sc.nextDouble();
+
+                quotient = x / y;
+                remainder = x % y;
+
+                System.out.print("The quotient is: " + quotient+"\n");
+                System.out.print("The remainder is: " + remainder+"\n");
 }
+}
+
+
+/*
+python
+
+x = float(input("Enter the first number: "))
+y = float(input("Enter the second number: "))
+quotient = x / y
+remainder = x % y
+print("The quotient is: ", quotient)
+print("The remainder is: ", remainder)
+
+
+*/
+
