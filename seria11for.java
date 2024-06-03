@@ -9,12 +9,11 @@ public class seria11for {
 
 
 /*
-
+python
 
 
 for x in range(11,111,11):
         print(x)
-
 
 
 
