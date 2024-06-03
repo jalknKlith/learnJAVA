@@ -7,20 +7,20 @@ public class starSign {
 
                 // Get the user's birth month and day
                 System.out.print("Enter your birth month (1-12): ");
-                int month = input.nextInt();
+                int month = input.nextInt(); //month = int(input("Enter your brith month (1-12)"))
 
                 System.out.print("Enter your birth day (1-31): ");
-                int day = input.nextInt();
+                int day = input.nextInt(); //month = int(input("enter your birth day (1-31)"))
 
                 // Determine the star sign based on the birth month and day
-                String starSign = "";
+                String starSign = ""; // starSign = ""
 
                 //January
-                if (month == 1) {
-                        if (day >= 20) {
-                                starSign = "Aquarius";
-                        } else {
-                                starSign = "Capricorn";
+                if (month == 1) {                          // if month == 1:
+                        if (day >= 20) {                     // if day >= 20: 
+                                starSign = "Aquarius";                //starSign = "Aquarius";
+                        } else {                                //else:
+                                starSign = "Capricorn";                //starSign = "Capricornio"
                 }
                 //February
                 } else if (month == 2) {
