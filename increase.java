@@ -25,7 +25,7 @@ public class increase {
     }
 }
 
-/*
+/* python
 
 prevSalary = int(input("Entre previous salary: "))
 increase = prevSalary * 0.25
