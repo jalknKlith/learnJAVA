@@ -30,6 +30,6 @@ public class increase {
 prevSalary = int(input("Entre previous salary: "))
 increase = prevSalary * 0.25
 newSalary = prevSalary + increase
-print("The new salary is: ", newSalary")
+print("The new salary is: ", newSalary)
 
 */
