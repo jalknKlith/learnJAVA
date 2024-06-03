@@ -22,9 +22,9 @@ public class budget {
         double branch3 = budget * 0.3d;
 
         // Print the budget per area
-        System.out.println("Budget for branch1: " + gynecology);
-        System.out.println("Budget for branch2: " + pediatrics);
-        System.out.println("Budget for branch3: " + traumatology);
+        System.out.println("Budget for branch1: " + branch1);
+        System.out.println("Budget for branch2: " + branch2);
+        System.out.println("Budget for branch3: " + branch3);
     }
 }
 
