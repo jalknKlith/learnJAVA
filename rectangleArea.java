@@ -6,11 +6,11 @@ public class rectangule {
 
         // Ask for the values
         float length, width, area;
-        Scanner read = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.println("Enter the length of the rectangle");
-        length = read.nextFloat();
+        length = input.nextFloat();
         System.out.println("Enter the width of the rectangle");
-        width = (float) read.nextFloat();
+        width = (float) input.nextFloat();
 
         // Calculate the area of a rectangle
         area = length * width;
@@ -19,3 +19,13 @@ public class rectangule {
         System.out.println("The area of the rectangle is: " + area);
   }
 }
+
+/*
+
+length = float(input("nter the length of the rectangle"))
+width = float(input("nter the width of the rectangle"))
+area = length * width
+print("The area of the rectangle is: ", area)
+
+
+*/
