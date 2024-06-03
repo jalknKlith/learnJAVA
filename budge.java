@@ -30,7 +30,7 @@ public class budget {
 
 /*
 
-budget = float(input("Enter the business's total annual budget"))
+budget = float(input("Enter the business's total annual budget: "))
 
 branch1 = budget * 0.4
 branch2 = budget * 0.3
