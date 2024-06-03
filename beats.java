@@ -20,3 +20,12 @@ public class beats {
         System.out.println("The number of beats per 10 seconds of exercise is: " + beats);
     }
 }
+
+/*
+
+age = input("Enter your age")
+beats = (220 - (age)) / 10
+print("The number of beats per 10 seconds of exercise is: ", beats)
+
+
+*/
