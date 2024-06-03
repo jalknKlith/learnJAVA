@@ -17,8 +17,7 @@ This repository contains fifteen Java algorithms for solving common mathematical
 11. **Square Area Calculator**: Calculates the area of the square given the side length.
 12. **Even or Odd**: Find out if the number you put is even or odd
 13. **Star Sign**: Find out which your star sign based on your birth day and birth month
-14. **Numerology**: Find out which number you are, based on your date of birth
-15. **50 Roman Numbers**: Enter a number from 1 to 50 and get its roman number 
+14. **50 Roman Numbers**: Enter a number from 1 to 50 and get its roman number 
 
 ## Usage
 
