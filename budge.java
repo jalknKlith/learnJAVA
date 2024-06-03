@@ -28,7 +28,7 @@ public class budget {
     }
 }
 
-/*
+/* python
 
 budget = float(input("Enter the business's total annual budget: "))
 
