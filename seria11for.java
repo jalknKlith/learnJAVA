@@ -12,7 +12,7 @@ public class seria11for {
 
 
 
-for x in range(2,9,2):
+for x in range(11,111,11):
         print(x)
 
 
