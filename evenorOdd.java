@@ -20,6 +20,7 @@ public class evenOdd {
 
 
 /*
+python
 
 
 number = int(input("Write a number: "))
