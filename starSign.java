@@ -20,7 +20,7 @@ public class starSign {
                         if (day >= 20) {                     // if day >= 20: 
                                 starSign = "Aquarius";                //starSign = "Aquarius";
                         } else {                                //else:
-                                starSign = "Capricorn";                //starSign = "Capricornio"
+                                starSign = "Capricorn";                //starSign = "Capricorn"
                 }
                 //February
                 } else if (month == 2) {
