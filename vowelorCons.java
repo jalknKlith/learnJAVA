@@ -1,31 +1,33 @@
-//Write to decide if it is a letter is a vowel or a consonant.
-
 import java.util.Scanner;
 
-public class VowelConsonant {
+public class VowelCon {
 
-        public static void main(String[] args) {
-                // Create a Scanner object to read user input
-                Scanner input = new Scanner(System.in);
+    public static void main(String[] args) {
 
-                // Prompt the user to enter a letter
-                System.out.println("Enter a letter: ");
-                String letter = input.nextLine();
+        Scanner input = new Scanner(System.in);
 
-                // Convert the letter to lowercase
-                letter = letter.toLowerCase();
+        System.out.println("Enter a letter: ");
+        String letter = input.nextLine();
 
-                // Check if the letter is a vowel
-                boolean isVowel = letter.equals("a") || letter.equals("e") || letter.equals("i") || letter.equals("o") || letter.equals("u");
-
-                // Print the result
-                if (isVowel) {
-                System.out.println("The letter '" + letter + "' is a vowel.");
-                } else {
-                System.out.println("The letter '" + letter + "' is a consonant.");
+        if(letter.equals("a") || letter.equals("e") || letter.equals("i")
+                || letter.equals("o") || letter.equals("u")) {
+                System.out.println(letter + " is a vowel.");
+        } else {
+                System.out.println(letter + " is a consonant.");
         }
     }
 }
 
+/*
 
+letter = str(input("Enter a letter: "))
+
+if letter == "a" or letter == "e" or letter == "i":
+    print(letter, "is a vowel")
+elif letter == "o" or letter == "u":
+    print(letter, "is a vowel")
+else:
+    print(letter, "is a consonant")
+
+*/
 
