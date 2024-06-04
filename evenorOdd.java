@@ -19,8 +19,7 @@ public class evenOdd {
 
 
 
-/*
-python
+/* python
 
 
 number = int(input("Write a number: "))
