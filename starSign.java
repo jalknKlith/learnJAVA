@@ -13,14 +13,14 @@ public class starSign {
                 int day = input.nextInt(); //day = int(input("enter your birth day (1-31)"))
 
                 // Determine the star sign based on the birth month and day
-                String starSign = ""; // starSign = ""
+                String starSign = "";
 
                 //January
                 if (month == 1) {                          // if month == 1:
                         if (day >= 20) {                     // if day >= 20: 
-                                starSign = "Aquarius";                //starSign = "Aquarius";
+                                starSign = "Aquarius";                //print("Your starSign is Aquarius")
                         } else {                                //else:
-                                starSign = "Capricorn";                //starSign = "Capricorn"
+                                starSign = "Capricorn";                // print("Your starSign is Capricorn")
                 }
                 //February
                 } else if (month == 2) {
