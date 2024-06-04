@@ -10,7 +10,7 @@ public class starSign {
                 int month = input.nextInt(); //month = int(input("Enter your brith month (1-12)"))
 
                 System.out.print("Enter your birth day (1-31): ");
-                int day = input.nextInt(); //month = int(input("enter your birth day (1-31)"))
+                int day = input.nextInt(); //day = int(input("enter your birth day (1-31)"))
 
                 // Determine the star sign based on the birth month and day
                 String starSign = ""; // starSign = ""
